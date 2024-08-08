@@ -1,5 +1,6 @@
 ---
-import Hello from "@/components/Hello";
+import NavbarMenuExample from "@/components/NavbarMenuExample";
+import BentoGridExample from "@/components/BentoGridExample";
 import TabsExample from "@/components/TabsExample";
 import DialogExample from "@/components/DialogExample";
 ---
@@ -13,8 +14,9 @@ import DialogExample from "@/components/DialogExample";
     <title>Astro</title>
   </head>
   <body>
-    <DialogExample client:load />
+    <NavbarMenuExample client:load />
+    <!-- <DialogExample client:load /> -->
     <!-- <TabsExample client:load /> -->
-    <!-- <Hello /> -->
+    <BentoGridExample />
   </body>
 </html>
