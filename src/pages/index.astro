@@ -1,0 +1,20 @@
+---
+import Hello from "@/components/Hello";
+import TabsExample from "@/components/TabsExample";
+import DialogExample from "@/components/DialogExample";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Astro</title>
+  </head>
+  <body>
+    <DialogExample client:load />
+    <!-- <TabsExample client:load /> -->
+    <!-- <Hello /> -->
+  </body>
+</html>
